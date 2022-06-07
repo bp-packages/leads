@@ -1,6 +1,6 @@
 <?php
 
-namespace BpPackages\Lead;
+namespace App\BpPackages\Lead;
 
 class Controller
 {

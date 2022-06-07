@@ -14,13 +14,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackage\\Lead\\": "./"
+            "App\\BpPackages\\Lead\\": "./"
         }
     },
     "minimum-stability": "dev",
     "type": "decibel-app",
     "extra": {
-        "installer-name": "PACKAGES/Lead",
+        "installer-name": "BpPackages/Lead",
         "installer-paths": {
             "{$name}": [
                 "bp-packages/lead"
