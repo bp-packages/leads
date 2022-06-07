@@ -1,0 +1,30 @@
+{
+    "name": "bp-packages/lead",
+    "description": "CRUD lead",
+    "license": "MIT",
+    "require": {
+        "composer/installers": "~2.0",
+        "dompdf/dompdf": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "leomaciel",
+            "email": "dev@leomaciel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BpPackage\\Lead\\": "./"
+        }
+    },
+    "minimum-stability": "dev",
+    "type": "decibel-app",
+    "extra": {
+        "installer-name": "PACKAGES/Lead",
+        "installer-paths": {
+            "{$name}": [
+                "bp-packages/lead"
+            ]
+        }
+    }
+}
